@@ -38,3 +38,7 @@ func formatedDatePTBR() string {
 func ExpectedCSVName() string {
 	return formatedDatePTBR() + " - Veículos HabilitadosCSV"
 }
+
+func ExpectedJsonName() string {
+	return formatedDatePTBR() + " - Veículos HabilitadosJSON"
+}
